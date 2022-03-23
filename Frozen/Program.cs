@@ -74,7 +74,7 @@ namespace OOPAndFiles
 
 			foreach (Frozen frozenFromList in myFrozens)
 			{
-				Console.WriteLine($"Anna --> {frozenFromList.Anna}. Elsa --> {frozenFromList.Elsa}. Anakin --> {frozenFromList.Anakin}. Kristoff --> {frozenFromList.Kristoff}. Sven --> {frozenFromList.Sven}. Olaf --> {frozenFromList.Olaf}.");
+				Console.WriteLine($"Anna wants {frozenFromList.Anna}. Elsa wants {frozenFromList.Elsa}. Anakin wants {frozenFromList.Anakin}. Kristoff wants {frozenFromList.Kristoff}. Sven wants {frozenFromList.Sven}. Olaf wants {frozenFromList.Olaf}.");
 			}
 
 		}
@@ -88,7 +88,7 @@ namespace OOPAndFiles
 		}
 		public static string[] GetDataFromFile()
 		{
-			string filePath = @"C:\Users\Kaarel\samples\frozen.txt";
+			string filePath = @"C:\Users\...\samples\frozen.txt";
 			string[] dataFromFile = File.ReadAllLines(filePath);
 
 			return dataFromFile;
